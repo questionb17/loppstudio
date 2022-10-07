@@ -7,7 +7,7 @@
 
 header{
     width: 100%;
-    height: 50%;
+    height: 700px;
     background-image: url(../images/desktop/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,13 +16,13 @@ header{
 
 
 
-.container{
+/* .container{
     background-image: url(../images/desktop/image-hero.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 700px;
-}
+} */
 
 
 .pa{
@@ -149,12 +149,88 @@ h2{
     /* font-family: 'Alata', sans-serif; */
 }
 
+.part-3{
+    margin-top: 900px;
+    /* display: flex; */
+}
 
+.box-1{
+    display: flex;
+    gap: 20px;
+    padding: 40px 30px;
+    margin-left: 45px;
+}
 
+.box-2{
+    display: flex;
+    gap: 20px;
+    padding: 40px 30px;
+    margin-left: 45px;
+}
+
+.text-2{
+    position: absolute;
+    margin-top: -75px;
+
+}
+
+h3{
+    padding-left: 50px;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+}
+
+button{
+    position: absolute;
+    width: 176px;
+    height: 55px;
+    left: 1080px;
+    top: 5px;
+    border-radius: 0px;
+    border: ;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.footer{
+    width: 100%;
+    height: 145px;
+    background-color: hsl(0, 0%, 0%);
+    margin-top: 110px;
+}
+
+.icons{
+    display: flex;
+    margin-left: 980px;
+}
+
+.menu{
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    list-style: none;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.loopstudio-rights{
+    color: hsl(0, 0%, 55%);
+    padding-left: 900px;
+    padding-top: -55px;
+    position: absolute;
+}
+
+.Logo-2{
+    margin-top: 30px;
+    margin-left: 50px;
+    position: absolute;
+    /* padding-left: 50px; */
+}
 
   @media screen and (max-width: 768px) {
     header{
        background-image: url("../images/mobile/image-hero.jpg"); 
+       background-size: cover;
+       width: 100%;
        /* background: yellow; */
        display: inline-block;
     }
@@ -188,8 +264,159 @@ h2{
     .toggler{
         display: block;
         color: brown;
-        margin-left: 210px;
-        margin-top: 0px;
-        padding-top: 43px;
+        margin-left: 310px;
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+
+    .text{
+        margin-left: 25px;
+        width: 300px;
+    }
+
+    h1{
+        font-size: 15px;
+        letter-spacing: 0.6rem;
+        line-height: 50px;
+    }
+
+    #img-interactive{
+        width: 290px;
+        height: 350px;
+    }
+
+    .var{
+        background-color: hsl(0, 0%, 100%);
+        width: 293px;
+        height: 300px;
+        margin-top: 250px;
+        margin-left: 50px;
+        display: flex;
+        margin-right: 50px;
+        /* padding-left: 10px;  */
+    }
+
+    h2{
+        font-size: 19px;
+        line-height: 1.2rem;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .pa{
+        font-family: 'Alata', sans-serif;
+        font-size: 13px;
+        width: 90%;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: -300px;
+        margin-left: -10px;
+    }
+
+    .text-2{
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 19px;
+    }
+
+    button{
+        position: absolute;
+        margin-top: 1090px;
+        margin-left: -1000px;
+    }
+
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 20px;
+    }
+
+    .box-2{
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 500px;
+            margin-left: -20px;
+        }
+        
+    }
+
+    .img-deep img{
+        width: 300px;
+        height: 100px;
+    }
+
+    .img-night img{
+        width: 300px;
+        height: 100px;
+    }
+
+    .img-soccer img{
+        width: 300px;
+        height: 100px;
+    }
+
+    .img-grid img{
+        width: 300px;
+        height: 100px;
+    }
+
+    .img-above img{
+        width: 300px;
+        height: 100px;
+    }
+
+    .img-pocket img{
+        width: 300px;
+        height: 100px;
+        margin-top: 135px;
+        margin-left: -320px;
+        position: absolute;
+    }
+
+    .img-curiosity img{
+        width: 300px;
+        height: 100px;
+        margin-top: 300px;
+        margin-left: -340px;
+    }
+
+    .img-fisheye img{
+        width: 300px;
+        height: 100px;
+        margin-top: 600px;
+        margin-left: -960px;
+
+    }
+
+    .footer{
+        width: 100%;
+        height: 345px;
+        background-color: hsl(0, 0%, 0%);
+        margin-top: -268px;
+    }
+    
+    .menu{
+        margin-top: 10px;
+        padding-top: -10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icons{
+        margin-left: 50px;
+        margin-top: 220px;
+        position: absolute;
+    }
+    
+    .loopstudio-rights{
+        margin-left: 50px;
+        margin-top: 150px;
+        color: yellow;
     }
  } 
+
